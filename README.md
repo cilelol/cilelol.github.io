@@ -104,4 +104,4 @@ if (inventoryMap.containsKey(UPC)) {
 In this code snippet in my add and update item function, the application can quickly decern if an item exists in the database, and add or update the item accordingly without having to iterate through the inventory.
 ### Course Outcome and Experience
 With this enhancement, I have met course outcome three, as I was able to use algorithmic principles to solve the problem of efficiency in looking up and displaying inventory. I was also able to acheive course outcomes five and two through input validation, error handling, and proper comments. As I was creating this enhancement, I had issues changing a lot of my code to work with the new HashMap, as their was a lot to change and it was easy to forget what still needed to be reworked. I also had to change my repository to a singleton, as after changing to use a HashMap, I found out on creating the repository each time, it created two separate HashMaps in my InventoryActivity and my ItemDetailsActivity since each activity created its own repository.  
-### Enhancment Three - Databases
+# Enhancment Three - Databases
