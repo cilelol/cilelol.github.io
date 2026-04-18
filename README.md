@@ -65,7 +65,7 @@ public class InventoryViewModel extends AndroidViewModel {
 }
 ```
 By seperation of concerns, my code became more organized and easily scalable, as new features can be added easier.
-# Barcode Functionality
+### Barcode Functionality
 As adding and updating inventory may take a while when dealing with large amounts of inventory, adding barcode functionality would make it easier for workers to add and update inventory with a simple scan of the UPC on an item. below is my code for this functionality, which automatically adds the UPC when adding an item, as opposed to typing out the UPC manually:
 ```
 // Scanner functionality
