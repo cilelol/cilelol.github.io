@@ -81,7 +81,7 @@ As adding and updating inventory may take a while when dealing with large amount
         });
 ```
 ### Course Outcome and Experience
-[Here]() is my narrative for enhancement one.
+[Here](Milestone2Narrative.pdf) is my narrative for enhancement one.
 # Enhancement Two - Algorithms and Data Structure
 For enhancement two, this artifact was the addition of a HashMap for increased efficiency in how data is stored and accessed. In the orignal version of my artifact, inventory items were stored and accessed using a list, which starts to become inefficient with large amounts of inventory. Because HashMaps use a key:value pair, it made sense to use this data structure, as lookups are fast and each inventory item would have a unique UPC, making it perfect for storing in a HashMap. Going from O(n) to O(1) when needing to display an item makes it so workers are not bogged down by the inefficiency of the program. In my lookup operation shown below, item's can be looked up directly without the need for iteration. 
 ```
