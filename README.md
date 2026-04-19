@@ -105,7 +105,7 @@ In this code snippet in my add and update item function, the application can qui
 ### Course Outcome and Experience
 [Here](CS-499Milestone3.pdf) is my narrative for enhancement two. 
 # Enhancment Three - Databases
-For my final enhancement, I wanted to use a cloud-based database instead of my local SQL database. In a warehouse setting, multiple people may be taking in or sending out inventory, so it is important that the database is shared between all workers simultaneously. To accomplish this, I chose to use MongoDB Atlus to host the database, with Node.js and Express as the middleware layer to handle database operations. Retrofit was then used in my application to communicate with the API and enabling syncronization between multiple devices. Below is the inventory shown on the android application, and MongoDB Atlus showing the added item into the database:
+For my final enhancement, I wanted to use a cloud-based database instead of my local SQL database. In a warehouse setting, multiple people may be taking in or sending out inventory, so it is important that the database is shared between all workers simultaneously. To accomplish this, I chose to use MongoDB Atlus to host the database, with Node.js and Express as the middleware layer to handle database operations. Retrofit was then used in my application to communicate with the API and enabling synchronization between multiple devices. Below is the inventory shown on the android application, and MongoDB Atlus showing the added item into the database:
 ![mongodb inventory](mongodbitems.png) ![Inventory in application](Inventory.png)
 ### Course Outcome and Experience
 [Here](MilestoneFour.pdf) is my narrative for enhancement three. 
